@@ -10,8 +10,10 @@ run the app:
     $ DEBUG=foo:* npm start
 
 
-basic use send mail http method
+basic use send mail http method:
+
     send post to http://localhost:3000/api/mail
+    
     body json, replace with your email access:
     {
         "to": "xx@gmail.com",
@@ -25,4 +27,5 @@ basic use send mail http method
     }
 
 test get method, add data .env
+
     http://localhost:3000/api/mail/test
